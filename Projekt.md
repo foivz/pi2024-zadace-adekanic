@@ -12,8 +12,11 @@ BusVaraždin koristi se u kontekstu digitalizacije poslovanja Gradskih autobusa 
 Sustav će omogućiti praćenje lokacije autobusa tako da vozač zabilježi da je otišao sa stanice, što će putnicima pružiti točne informacije o dolasku autobusa na stanice. Omogućit će se definiranje voznih linija i voznih redova, čime će se osigurati bolja organizacija i efikasnost prijevoznog sustava. Putnicima će biti omogućen pristup informacijama o voznim linijama, voznim redovima i lokaciji autobusa putem aplikacije, olakšavajući im planiranje putovanja. Također, sustav će automatizirati proces prodaje karata putem kioska, čime će se smanjiti vrijeme čekanja putnika i povećati efikasnost pri kupnji karata. Evidencija broja putnika u autobusu omogućit će bolje upravljanje kapacitetom i smanjenje pretrpanosti, pri čemu će vozač pokušati što preciznije odrediti broj putnika koristeći ponuđene opcije, dok će čitač karata brojati koliko je karata očitao.
 Ovim funkcionalnostima, novi sustav će značajno unaprijediti iskustvo putnika, povećati efikasnost poslovanja tvrtke te pridonijeti boljoj organizaciji i upravljanju gradskim prijevozom. Softver neće moći kontrolirati prometne gužve ili utjecati na točnost dolaska autobusa u slučaju prometnih problema. Također, neće moći spriječiti fizičke probleme s autobusima, kao što su kvarovi ili neplanirani zastoji. Iako će pružiti brojne koristi i unapređenja u poslovanju, važno je imati realna očekivanja o tome što softver može i ne može postići.
 ### 1.3 Definicije, akronimi i skraćenice
-[**Softver** je skup podataka i računarskih instrukcija koje računaru govore kako treba da radi.](https://bs.wikipedia.org/wiki/Softver)
+**Softver** je skup podataka i računarskih instrukcija koje računaru govore kako treba da radi.  
+Primarna svrha koju **TCP/IP** ima je vezana za omogućavanje nesmetane komunikacije i to među računarima koji su međusobno ili na server povezani.
 ### 1.4 Reference
+https://bs.wikipedia.org/wiki/Softver  
+https://www.oxfordwebstudio.com/da-li-znate/sta-je-tcp-ip.html
 
 ### 1.5 Struktura dokumenta
 Ostatak sadrži „Općeniti opis“ koji će pojasniti perspektivu proizvoda, funkcije proizvoda, karakteristike proizvod, ograničenja, pretpostavke i ovisnosti. Sadrži „Funkcionalan zahtjev“ kojim se detaljno specificiraju zahtjevi kako bi ih programeri i dizajneri lakše realizirali. „Nefunkcionalni zahtjev“ sadrži opis izgleda sučelja aplikacije, te prilagođenost grupi korisnika.
@@ -22,17 +25,18 @@ Ostatak sadrži „Općeniti opis“ koji će pojasniti perspektivu proizvoda, f
 ### 2.1 Perspektiva proizvoda
 BusVaraždin nije potpuno neovisno i samostalno, već je usko povezano s drugim sustavima. Novo softversko rješenje ima mogućnost integracije sa sustavima za očitavanje karata. Također omogućit će se prodaja karata na kiosku autobusnih stanica. Prilikom ulaska autobus, umjesto očitavanja karte od strane vozača, putnik sam očitava kartu na čitaču postavljenom na ulazu Ovaj pristup omogućuje učinkovitije upravljanje voznim parkom, optimizaciju voznih redova i poboljšanje korisničkog iskustva. Sučelja među različitim sustavima bit će pažljivo definirana kako bi se osigurala glatka razmjena podataka i koordinacija aktivnosti.
 Osim toga, BusVaraždin će omogućiti praćenje lokacije autobusa u stvarnom vremenu Kroz ovu integraciju, softversko rješenje postaje bitan dio gradskog prijevoza, pružajući bolje iskustvo. BusVaraždin će uzimati u obzir prometne gužve ili zastoje kako bi se putnike obavjestilo o mogućem kašnjenju.
-Uz to, sučelje naše softverske platforme bit će ključno za usklađivanje s različitim hardverskim i komunikacijskim tehnologijama kako bi se osigurala efikasna integracija s drugim sustavima.
+Uz to, sučelje naše softverske platforme bit će ključno za usklađivanje s različitim hardverskim i komunikacijskim tehnologijama kako bi se osigurala efikasna integracija s drugim sustavima. Različite komunikacijske tehnologije poput TCP/IP protokola ili IC čitača mogu se koristiti za sigurno očitavanje karata putnika.
 ### 2.2 Funkcije proizvoda
 1.	**Praćenje lokacije vozila**: Omogućuje praćenje stvarnog položaja autobusa kako bi se putnicima pružile točne informacije o dolasku i odlasku vozila.
 2.	**Upravljanje voznim parkom**: Omogućuje definiranje i upravljanje vozilima u voznom parku, uključujući dodavanje, uklanjanje i raspoređivanje vozila na određene linije.
 3.	**Definiranje i upravljanje autobusnim stanicama**: Omogućuje definiranje i održavanje informacija o autobuskim stanicama, uključujući lokaciju, naziv i povezane linije.
 4.	**Definiranje vozni redova**: Omogućuje prilagodbu voznog reda prema potrebama i promjenama u prometu.
 5.	**Prikaz vozno-redovnih informacija**: Putnicima omogućuje pristup jasnim informacijama o voznom redu, pomažući im u planiranju putovanja.
-6.	**Korisnička podrška i sustav povratnih informacija**: Omogućuje korisnicima da pruže povratne informacije, postave pitanja ili izraze zabrinutost putem različitih kanala komunikacije, poput internetskog obrasca, mobilne aplikacije
+6.	**Korisnička podrška i sustav povratnih informacija**: Omogućuje korisnicima da pruže povratne informacije, postave pitanja ili izraze zabrinutost putem 
+ komunikacije aplikacije
 7.	**Mogućnost planiranja putovanja**: Korisnicima omogućuje planiranje putovanja s preporukama za najbrži ili najučinkovitiji put do odredišta.
 8.	**Generiranje izvještaja o performansama**: Omogućuje generiranje izvještaja o performansama sustava radi analize vožnje, broja putnika i drugih relevantnih podataka.
-9.	**Brojanje putnika**: Na ulazu će biti postavljen čitać karata koji će utvrditi ispravnost karata i broj putnika koji su usli u autobus. Broj putnika koji su izašli će evidentirati vozač busa na ekranu. Vozač busa će odabrati opcije koliko je putnika izašli , te će putnicima pružiti informaciju o broju putnika u autobusu.
+9.	**Brojanje putnika**: Na ulazu će biti postavljen čitač karata koji će utvrditi ispravnost karata i broj putnika koji su usli u autobus. Broj putnika koji su izašli će evidentirati vozač busa na ekranu. Vozač busa će odabrati opcije koliko je putnika izašli , te će putnicima pružiti informaciju o broju putnika u autobusu.
 
 ## 2.3 Karakteristike korisnika
 **Administratori** posjeduju napredno računalno znanje i iskustvo u upravljanju softverskim sustavima. Odgovorni su za postavljanje i održavanje konfiguracije sustava, upravljaju korisničkim računima i pravima pristupa, generiraju izvještaje i analiziraju podatke, nadziru sigurnosne postavke i osiguravaju integritet podataka.  
@@ -53,8 +57,8 @@ Planiranje dugoročne podrške, uključujući redovite nadogradnje softvera i od
 
 | Identifikator | Z-1  |
 |----------|----------|
-| Zahtjev | Sustav će omogućiti praćenje položaja autobusa tako da vozač busa evidentira da je otišao sa stanice, omogućujući putnicima pravovremene informacije o lokaciji vozila. Ograničenja uključuju moguće varijacije u preciznosti ovisno o prometnim uvjetima  |
-| Obrazloženje |  Praćenje lokacije vozila je ključno za poboljšanje iskustva putnika javnog prijevoza jer im pruža točne informacije o dolasku i odlasku autobusa.  |
+| Zahtjev | Sustav će omogućiti praćenje položaja autobusa  |
+| Obrazloženje |  Praćenje lokacije vozila je ključno za poboljšanje iskustva putnika javnog prijevoza jer im puža točne informacije o dolasku i odlasku autobusa.  |
 | Način provjere |  Ovaj testni scenarij uključivao bi evidentiranje da je vozač stigao na stanicu. Vozač će na ekranu potvrdit da je stigao na stanicu. Nakon toga se provjerava da li putnici vide promjene o mjestu autobusa. Nakon evidencije dolaska, vozač evidentira odlazak. Nakon toga se provjerava da li putnici vide promjene o mjestu autobusa. |
 | Prioritet |  3  |
 | Izvor | Specifikacija zahtjeva za softverom za gradski prijevoz   |
@@ -133,13 +137,60 @@ Planiranje dugoročne podrške, uključujući redovite nadogradnje softvera i od
 | Prioritet |  4  |
 | Izvor | Specifikacija zahtjeva za softverom za gradski prijevoz   |
 
+| Identifikator | Z-10   |
+|----------|----------|
+| Zahtjev |  Sustav će omogućiti pristup osjetljivim informacijama samo autentificiranim osobama. |
+| Obrazloženje |  Omogućuje prikaz osjetljivih informacija samo ovlaštenim osobama (vozni park). Tako da samo ovlaštene osobe smiju unositi i čitati osljetljive podatke.  |
+| Prioritet |  1  |
+| Izvor | Specifikacija zahtjeva za softverom za gradski prijevoz   |
+
 ### 3.1 Dinamika realizacije zahtjeva
-U prvoj verziji softverskog rješenja, fokus će biti na implementaciji ključnih zahtjeva koji su usmjereni na poboljšanje putničkog iskustva u korištenju gradskih autobusa u Varaždinu. U ostale verzije će se fokusirati na digitalizaciju kako bi se lakše evidentirali važni podatci.
+U prvoj verziji, fokus će biti na implementaciji ključnih zahtjeva.
+Z-10 Sustav će omogućiti pristup samo autentificiranim korisnicima
+Z-2 Sustav omogućuje upravljanje voznim parkom
+Z-3 Sustav omogućuje definiranje autobusnim stanicama
+Z-4 Sustav će omogućiti definiranje vozni redova
+Z-5 Sustav će omogućiti prikaz jasnih informacija o voznom redu putnicima
+
+U drugoj verziji će se realizirati ostali zahtjevi.
+Z-1 Sustav će omogućiti praćenje položaja autobusa
+Z-6 Sustav će omogućiti korisničku podršku
+Z-7 Sustav će omogućiti korisnicima funkcionalnost planiranja putovanja
+Z-8 Sustav će generirati izvještaje o performansama
+Z-9 Sustav omogućuje brojanje putnika
 
 ## 4. Nefunkcionalni zahtjevi
 
-### 4.1 
-Na temelju opisa poslovanja Gradskih autobusa Varaždin, najprikladniji stil dizajna bio bi formalan i korporativan izgled. Budući da se tvrtka bavi javnim prijevozom i pruža usluge širokom spektru korisnika, važno je da dizajn odražava profesionalnost i ozbiljnost. Formalan i korporativan dizajn osigurao bi da sučelje bude primjereno za široku publiku, uključujući i korisnike koji se oslanjaju na gradski prijevoz za poslovne i svakodnevne aktivnosti.
+### 4.1 Izgled softvera
+NF-1 - Dizajna će formalan i korporativan izgled
+NF-2 – Sustav će interakciju s korisnikom provoditi preko grafičkog sučelja
 
 ### 4.2 Upotrebljivost softvera
-Na temelju opisa, ključno je osigurati da softver bude prilagođen korisnicima svih dobnih skupina, uključujući umirovljenike, te da bude jednostavan za korištenje i učenje. To podrazumijeva intuitivan dizajn korisničkog sučelja s jasnim oznakama i uputama, prilagodbu za poboljšanu pristupačnost starijim osobama, poput većih fontova i kontrola kontrasta
+NF-3 - Sustav će biti jednostavan i imat će što manje mogućnosti za greške
+
+### 4.3 Performanse softvera
+NF-4 - Sustav će osigurat preciznost broj putnika između 1-10
+NF-5 - Sustav će osigurat preciznost lokacija autobusa na razini stanice koju je napustio
+
+### 4.4 Izvođenje softvera i okruženje 
+NF-6 - Sustav će raditi na Windows 8  ili novijiem operacijskom sustavu
+
+### 4.5 Sigurnost i privatnost
+NF-7 - Sustav će samo ovlaštenim osobama dopustiti upravljanje voznim redom, upravljanje voznim parkom, definiranje lokacije autobusa i broja putnika.
+
+### 4.6 Ostalo
+Nema identificiranih dodatnih nefunkcionalnih zahtjeva.
+
+## 5. Skice zaslona
+### 5.1 Skica prijava u sustav
+![b27f7e62-4776-496b-9f85-ecdc04ea3f9c](https://github.com/foivz/pi2024-zadace-adekanic/assets/162907951/bf055f6e-5ef1-47ae-a84b-20a478ec2878)
+### 5.2 Definiranje stanica
+![ceda2949-554b-4d6b-ad54-c7fe2466b4d8](https://github.com/foivz/pi2024-zadace-adekanic/assets/162907951/b38084ca-5ee7-46ae-a4bb-ad232392a1d8)
+### 5.3 Definiranje voznog parka
+![425b02a9-f37e-4511-bba5-45108e2a17ee](https://github.com/foivz/pi2024-zadace-adekanic/assets/162907951/7162a0de-e622-4226-a6cc-83d775aca0c4)
+### 5.4 Skica žalbe
+![aca4e73e-238b-49b2-8ee3-f11c7ad99e9f](https://github.com/foivz/pi2024-zadace-adekanic/assets/162907951/3c11499b-2a85-4d50-8ea3-21fca109551e)
+### 5.5 Skica sučelja za putnike
+![f26b066a-b5f2-4c05-ac00-87089594747d](https://github.com/foivz/pi2024-zadace-adekanic/assets/162907951/a78721a4-d7ee-477f-9a65-557ff163e7c4)
+
+
