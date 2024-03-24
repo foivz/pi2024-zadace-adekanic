@@ -17,10 +17,10 @@ Antonio Dekanić | adekanic22@student.foi.hr | 0016159117 | adekanic
 
 
 ## Opis domene
-(Vlastitim riječima opišite domenu ili problem koji pokriva projekt vaše zadaće!)
+Projekt se fokusira na digitalizaciju poslovanja gradskog autobuskog prijevoznika u Varaždinu radi poboljšanja kvalitete usluge prijevoza i optimizacije poslovnih procesa. Cilj je implementirati sustav koji će omogućiti definiranje vozila, autobusnih stanica, linija i voznog reda, te praćenje lokacije autobusa u stvarnom vremenu. Također, sustav će omogućiti putnicima pristup informacijama o linijama, voznim redovima te omogućiti online kupovinu karata radi ubrzanja procesa ukrcavanja i poboljšanja točnosti polazaka.
 
 ## Specifikacija projekta
-(Vlastitim riječima opišite zahtjeve za izradu ovog programskog proizvoda!)
+Zahtjevi za izradu ovog programskog proizvoda uključuju digitalizaciju poslovanja gradskog autobuskog prijevoznika u Varaždinu. To uključuje definiranje i upravljanje vozilima i stanicama, definiranje vozila, linija i voznog reda, praćenje lokacije autobusa u stvarnom vremenu te prikaz informacija na autobusnim stanicama. Također, sustav bi trebao omogućiti putnicima pristup informacijama o autobusnim linijama i voznim redovima radi poboljšanja iskustva korisnika i optimizacije poslovnih procesa.
 
 ## Zadatak
 (U root repozitorija učitajte zadatak koji ste dobili i potom ovdje stavite link na njegovo otvaranje!)
