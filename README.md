@@ -8,11 +8,9 @@ Molim vas izmijenite ovaj dokument kako biste u njemu naveli naziv i kratak opis
 A sada, vrijeme je za prvi korak rada na vašem projektu. 🙂 Za upis/opis vašeg programskog proizvoda molimo vas koristite **predložak** koji je naveden u nastavku. Započnite tako da kliknete na *olovku* u desnom gornjem kutu ovoga dokumenta te izbrišite sve što je iznad _Naziva projekta_, kao i sve upute koje su navedene u zagradama u predlošku ispod.
 
 # Naziv projekta
-(U redak iznad navedite naziv projekta koji ste dobili za analizu!)
+Sustav upravljanja gradskim prijevozom putnika
 
 ## Podaci o studentu
-(Ispod promijenite samo drugi redak tablice!)
-
 Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
 ------------  | ------------------- | ----- | ---------------------
 Antonio Dekanić | adekanic22@student.foi.hr | 0016159117 | adekanic
