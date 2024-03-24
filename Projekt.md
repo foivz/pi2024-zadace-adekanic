@@ -62,7 +62,7 @@ Planiranje dugoročne podrške, uključujući redovite nadogradnje softvera i od
 
 | Identifikator | Z-2  |
 |----------|----------|
-| Zahtjev | Sustav omogućuje upravljanje voznim parkom s mogućnošću definiranja, manipulacije i raspoređivanja vozila na određene linije. Pristup ovim funkcionalnostima imaju samo ovlašteni korisnici s odgovarajućim ovlastima.  |
+| Zahtjev | Sustav omogućuje upravljanje voznim parkom.  |
 | Obrazloženje |  Definiranje i manipulacija vozilima omogućuje prilagodbu voznog parka trenutnim zahtjevima prijevoza, kao što su promjene u potražnji na određenim linijama ili popravci vozila  |
 | Način provjere | Testirat će se dodavanje novih vozila, uklanjanje postojećih i raspoređivanje na linije.  |
 | Prioritet |  3  |
@@ -71,7 +71,7 @@ Planiranje dugoročne podrške, uključujući redovite nadogradnje softvera i od
 
 | Identifikator | Z-3  |
 |----------|----------|
-| Zahtjev |  Sustav omogućuje definiranje i upravljanje autobusnim stanicama, uključujući informacije o lokaciji, nazivu i povezanim linijama. Promjene smiju izvršavati samo ovlaštene osobe. |
+| Zahtjev |  Sustav omogućuje definiranje autobusnim stanicama. |
 | Obrazloženje |  Imajući informacije o lokaciji, nazivu i povezanim linijama autobusnih stanica, sustav omogućuje putnicima da lakše planiraju svoje putovanje.  |
 | Način provjere |  Simuliramo dodavanje nove autobusne stanice i provjeravamo uspješno pohranjivanje s potrebnim informacijama. Provjeravam mogućnost uređivanja postojećih podataka. Konačno, izvršavamo testni scenarij brisanja stanice.|
 | Prioritet |  2  |
@@ -80,7 +80,7 @@ Planiranje dugoročne podrške, uključujući redovite nadogradnje softvera i od
 
 | Identifikator | Z-4  |
 |----------|----------|
-| Zahtjev |  Sustav će omogućiti definiranje vozni redova uz mogućnost prilagodbe prema potrebama i promjenama u prometu. Ograničenja uključuju mogućnost prilagodbe samo od strane ovlaštenih osoba. |
+| Zahtjev |  Sustav će omogućiti definiranje vozni redova. |
 | Obrazloženje |  Definiranje voznih redova osigurava prilagodljivost i efikasnost javnog prijevoza. Promjene u prometu, poput radova na cestama ili događaja, zahtijevaju ažuriranje voznih redova kako bi putnicima osigurali točne informacije o dolasku vozila.  |
 | Način provjere |  Korisnik će putem sučelja upravljati voznim redom: dodati, ukloniti linije, urediti vrijeme polazaka i dolazaka te spremiti izmjene. Zatim će se provjeriti vidljivost promjena korisnicima. |
 | Prioritet |  1  |
@@ -89,7 +89,7 @@ Planiranje dugoročne podrške, uključujući redovite nadogradnje softvera i od
 
 | Identifikator | Z-5  |
 |----------|----------|
-| Zahtjev |  Sustav će omogućiti prikaz jasnih informacija o voznom redu putnicima uz pomoć aplikacije. Ograničenja uključuju pristup internetu i kompatibilni uređaj za prikaz informacija |
+| Zahtjev |  Sustav će omogućiti prikaz jasnih informacija o voznom redu putnicima. |
 | Obrazloženje |  Zahtjev za prikazom vozno-redovnih informacija ključan je za pružanje putnicima pravovremenih i preciznih informacija o rasporedu autobusa, što optimizira njihovo vrijeme i povećava zadovoljstvo korisnika.  |
 | Način provjere |  Scenarij uključuje provjeru točnosti prikaza vozno-redovnih informacija na autobusnoj stanici za određeni dan i vrijeme. Tester simulira korisnika pristupom informacijama putem mobilne aplikacije te provjerava jasnost i aktualnost prikaza informacija |
 | Prioritet |  2  |
@@ -99,7 +99,7 @@ Planiranje dugoročne podrške, uključujući redovite nadogradnje softvera i od
 
 | Identifikator | Z-6   |
 |----------|----------|
-| Zahtjev | Sustav podržava korisničku podršku i povratne informacije putem aplikacije, omogućujući korisnicima da pruže povratne informacije ili postave pitanja. Ograničenje je obrada povratnih informacija unutar određenog vremenskog okvira.  |
+| Zahtjev | Sustav će omogućiti korisničku podršku. |
 | Obrazloženje |  Ova funkcionalnost omogućuje da se prikupe važne povratne informacije o kvaliteti usluge, korisničkim potrebama i eventualnim problemima s kojima se korisnici susreću.  |
 | Način provjere | Korisnik će putem aplikacije poslat upit ili žalbu. Nakon što je korisnik poslao upit ili žalbu treba se provjeriti da je tehnička podrška zadobila upit ili žalbu.  |
 | Prioritet |  3  |
@@ -108,7 +108,7 @@ Planiranje dugoročne podrške, uključujući redovite nadogradnje softvera i od
 
 | Identifikator | Z-7  |
 |----------|----------|
-| Zahtjev | Sustav će omogućiti korisnicima funkcionalnost planiranja putovanja uz preporuke za najbrži ili najučinkovitiji put do odredišta uz ograničenje da se preporuke temelje na trenutnim voznom redovima i prometnim uvjetima.  |
+| Zahtjev | Sustav će omogućiti korisnicima funkcionalnost planiranja putovanja.  |
 | Obrazloženje |  Omogućuje korisnicima dobivanje preporuka za najbrži ili najučinkovitiji put do odredišta.  |
 | Način provjere | Provjerava se procjena vremena putovanja, broj prijevoza, presjedanja i ukupna duljina putovanja te korisnikov odabir preferirane rute.   |
 | Prioritet |  4  |
@@ -117,7 +117,7 @@ Planiranje dugoročne podrške, uključujući redovite nadogradnje softvera i od
 
 | Identifikator | Z-8  |
 |----------|----------|
-| Zahtjev | Sustav će generirati izvještaje o performansama, uključujući analizu vožnje i broja putnika, prilagođene vremenskom rasponu i specifičnim parametrima. Ti će izvještaji biti dostupni samo autoriziranim korisnicima.  |
+| Zahtjev | Sustav će generirati izvještaje o performansama.  |
 | Obrazloženje |  Kako bi se unaprijedilo iskustvo putnika i bolje rasporedili resursi potrebno je generitrati izvješaje.  |
 | Način provjere | Simuliramo različite situacije u radu sustava, poput vožnje autobusa, promjena u broju putnika i vremenskih uvjeta. Prikupljamo potrebne podatke o vožnji i relevantnim informacijama. Zatim koristimo funkcionalnost sustava za generiranje izvještaja.  |
 | Prioritet |  1  |
@@ -127,7 +127,7 @@ Planiranje dugoročne podrške, uključujući redovite nadogradnje softvera i od
 
 | Identifikator | Z-9   |
 |----------|----------|
-| Zahtjev |  Sustav omogućuje brojanje putnika pomoću čitača karata na ulazu autobusa radi provjere ispravnosti karata i evidentiranja broja putnika. Vozač autobusa ručno evidentira broj putnika koji su izašli putem ekrana, s ograničenjem ovisnosti o subjektivnosti vozača pri toj evidenciji. |
+| Zahtjev |  Sustav omogućuje brojanje putnika. |
 | Obrazloženje |  Omogućuje drugim putnicima na stanici koliko je putnika u autobusu. Putnicima se osigurava informacije pomoću koji mogu izbjeći gužve.  |
 | Način provjere | Prilikom očitavanja karte na čitaću treba se provjeriti da li se broj putnika prikazan putnicima promjenio. U slučaju kada vozač odabire opciju koliko je ljudi izašli treba se provjeriti da li se broj putnika prikazan putnicima promjenio.  |
 | Prioritet |  4  |
