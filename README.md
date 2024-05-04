@@ -4,7 +4,7 @@ Sustav upravljanja gradskim prijevozom putnika
 ## Podaci o studentu
 Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
 ------------  | ------------------- | ----- | ---------------------
-Antonio Dekanić | adekanic22@student.foi.hr | 0016159117 | adekanic
+Antonio Dekanić | adekanic22@student.foi.hr | 0016159117 | adekanic22
 
 
 ## Opis domene
