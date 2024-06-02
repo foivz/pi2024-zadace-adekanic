@@ -1,6 +1,11 @@
 # Naziv projekta
 Sustav upravljanja gradskim prijevozom putnika
 
+## Za prijaviti se u aplikaciju napravljenu u Visual Studiu
+Username: korisnik1
+Lozinka: bb2C9xEa
+
+
 ## Podaci o studentu
 Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
 ------------  | ------------------- | ----- | ---------------------
